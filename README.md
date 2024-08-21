@@ -56,6 +56,9 @@
 
 <p>HTTP est sans état : il n'y a pas de lien entre deux requêtes qui sont effectuées successivement sur la même connexion. Cela devient très rapidement problématique lorsque les utilisateurs veulent interagir avec une page de façon cohérente, par exemple avec un panier d'achat sur un site de commerce en ligne</p>
 
+<h1>5- Décomposition d'un URL </h1>
+
+<p> La structure de l'URL se compose de 3 éléments que nous allons voir avec l'exemple https://www.monsite.com : Le protocole et le sous domaine : https://www. Le nom de domaine : monsite. L'extension du nom de domaine : .com  </p>
 
 
 
