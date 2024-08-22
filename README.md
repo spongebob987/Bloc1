@@ -78,26 +78,10 @@
 
 <p>la commande "curl http://dev.local" permet d'afficher le code html de la page correspondante.</p>
 <img src= "documents/curl.png">
-<h1>10- Headers</h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <p>la commande "curl http://dev.local/notExisting" montre qe l'url n'a pas été touvé sur le serveur.</p>
 <img src= "documents/curl2.png">
+
+<h1>10- Headers</h1>
 https://developer.mozilla.org/fr/docs/Web/HTTP/Overview
 
 
