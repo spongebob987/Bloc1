@@ -54,11 +54,11 @@
 
 <h1>4- Sans états</h1>
 
-<p>HTTP est sans état : il n'y a pas de lien entre deux requêtes qui sont effectuées successivement sur la même connexion. Cela devient très rapidement problématique lorsque les utilisateurs veulent interagir avec une page de façon cohérente, par exemple avec un panier d'achat sur un site de commerce en ligne</p>
+<p>HTTP est sans état : il n'y a pas de lien entre deux requêtes qui sont effectuées successivement sur la même connexion. Cela devient très rapidement problématique lorsque les utilisateurs veulent interagir avec une page de façon cohérente, par exemple avec un panier d'achat sur un site de commerce en ligne.</p>
 
 <h1>5- Décomposition d'un URL </h1>
 
-<p> La structure de l'URL se compose de 3 éléments que nous allons voir avec l'exemple https://www.monsite.com : Le protocole et le sous domaine : https://www. Le nom de domaine : monsite. L'extension du nom de domaine : .com  </p>
+<p> La structure de l'URL se compose du protocole, du nom de domaine, le chemin ainsi que les paramètres et l'ancre.</p>
 
 <img src= https://cdn.prod.website-files.com/5eeb8b290ae25bce2125fc54/642fca11a8fb4d068243263a_url-definition.webp>
 
