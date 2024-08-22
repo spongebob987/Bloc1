@@ -77,6 +77,7 @@
 <h1>8- Curl</h1>
 
 <p>la commande "curl http://dev.local" permet d'afficher le code html de la page correspondante</p>
+<img src= "documents/curl.png">
 https://developer.mozilla.org/fr/docs/Web/HTTP/Overview
 
 
