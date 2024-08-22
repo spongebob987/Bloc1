@@ -60,7 +60,7 @@
 
 <p> La structure de l'URL se compose de 3 éléments que nous allons voir avec l'exemple https://www.monsite.com : Le protocole et le sous domaine : https://www. Le nom de domaine : monsite. L'extension du nom de domaine : .com  </p>
 
-
+< img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.spreadfamily.fr%2Fglossaire%2Furl&psig=AOvVaw3NN2tjO92TuiXTqIbNqmTW&ust=1724393507469000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDl35f4h4gDFQAAAAAdAAAAABAE" >
 
 
 <p> les informations proviennent de : https://developer.mozilla.org/fr/docs/Learn/Forms/Sending_and_retrieving_form_data </p>
