@@ -74,7 +74,9 @@
 <p> les informations proviennent de : https://developer.mozilla.org/fr/docs/Learn/Forms/Sending_and_retrieving_form_data </p>
 <p> ou encore : https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/</p>
 
+<h1>8- Curl</h1>
 
+<p>la commande "curl http://dev.local" permet d'afficher le code html de la page correspondante</p>
 https://developer.mozilla.org/fr/docs/Web/HTTP/Overview
 
 
