@@ -62,6 +62,12 @@
 
 <img src= https://cdn.prod.website-files.com/5eeb8b290ae25bce2125fc54/642fca11a8fb4d068243263a_url-definition.webp>
 
+<h1>6- Code status</h1>
+<p>- Les réponses informatives (100-199)</p>
+<p>- Les réponses de succès (200-299)</p>
+<p>- Les messages de redirection (300-399)</p>
+<p>- Les erreurs de client(400-499)</p>
+<p>- Les erreurs de seveurs(500-599)</p>
 
 <p> les informations proviennent de : https://developer.mozilla.org/fr/docs/Learn/Forms/Sending_and_retrieving_form_data </p>
 <p> ou encore : https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/</p>
