@@ -74,9 +74,13 @@
 <p> les informations proviennent de : https://developer.mozilla.org/fr/docs/Learn/Forms/Sending_and_retrieving_form_data </p>
 <p> ou encore : https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/</p>
 
-<h1>8- Curl</h1>
+<h1>9- Curl</h1>
 
-<p>la commande "curl http://dev.local" permet d'afficher le code html de la page correspondante</p>
+<p>la commande "curl http://dev.local" permet d'afficher le code html de la page correspondante.</p>
+<img src= "documents/curl.png">
+
+<p>la commande "curl http://dev.local/notExisting" montre qe l'url n'a pas été touvé sur le serveur.</p>
+<img src= "documents/curl2.png">
 https://developer.mozilla.org/fr/docs/Web/HTTP/Overview
 
 
