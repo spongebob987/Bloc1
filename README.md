@@ -81,6 +81,66 @@
 
 <p>la commande "curl http://dev.local/notExisting" montre qe l'url n'a pas été touvé sur le serveur.</p>
 <img src= "documents/curl2.png">
+
+<h1>10- Headers</h1>
+
+<table>
+  <tr>
+    <td>Nom</td>
+    <td>En-têtes de requêtes</td>
+    <td>En-têtes de réponse</td>
+    <td>En-têtes de représentation</td>
+    <td>En-têtes de charge utile</td>
+  </tr>
+  <tr>
+    <td>Explication</td>
+    <td>Contiennent des informations additionnelles à propos de la ressource à récupérer ou à propos du client qui la demande.</td>
+    <td>Contiennent des informations supplémentaires au sujet de la réponse (par exemple son emplacement), ou au sujet du serveur qui la fournit.</td>
+    <td>Contiennent des informations à propos du corps de la ressource, comme son type MIME, ou le type de compression ou d'encodage appliqué.
+
+</td>
+    <td>Contiennent des informations indépendantes de la représentation sur la charge utile, comme la longueur du contenu ou l'encodage utilisé pour le transport.
+
+</td>
+  </tr>
+  <tr>
+    <td>Exemple</td>
+    <td>GET /home.html HTTP/1.1
+Host: developer.mozilla.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://developer.mozilla.org/testpage.html
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Mon, 18 Jul 2016 02:36:04 GMT
+If-None-Match: "c561c68d0ba92bbeb8b0fff2a9199f722e3a621a"
+Cache-Control: max-age=0</td>
+    <td>200 OK
+Access-Control-Allow-Origin: *
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Mon, 18 Jul 2016 16:06:00 GMT
+Etag: "c561c68d0ba92bbeb8b0f612a9199f722e3a621a"
+Keep-Alive: timeout=5, max=997
+Last-Modified: Mon, 18 Jul 2016 02:36:04 GMT
+Server: Apache
+Set-Cookie: mykey=myvalue; expires=Mon, 17-Jul-2017 16:06:00 GMT; Max-Age=31449600; Path=/; secure
+Transfer-Encoding: chunked
+Vary: Cookie, Accept-Encoding
+X-Backend-Server: developer2.webapp.scl3.mozilla.com
+X-Cache-Info: not cacheable; meta data too large
+X-kuma-revision: 1085259
+x-frame-options: DENY</td>
+    <td>                </td>
+    <td>                </td>
+  </tr>
+  <tr>
+   
+</table>
+
 https://developer.mozilla.org/fr/docs/Web/HTTP/Overview
 
 
