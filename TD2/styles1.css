@@ -1,15 +1,49 @@
 body{
+
 background-color: rgb(83, 83, 83);
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-h1 {
+
+h1{
+
+text-align: center;
+}
+
+
+.menu {
+
+    display: flex;              /* Transformation en flexbox */
+    margin: 0px;
+    padding: 0;
+
    
 }
 
+.menu li {
+    
+    list-style-type: none ;  
+    padding: 15px;     /* Ajout d'espace pour une meilleure apparence */
+    display: inline;
+	list-style: none; /* nécessaire pour IE7 */
+}
 
+.menu a {
 
+    display:block;                /* Transformation en block */
+    min-width: 500px; 
+    display:inline-block;
+	margin: 0px;
+    
+            
+}
 
+.content{
+text-align: center;
+margin-left: 600px;
+margin-right: 600px;
 
+}
 
+a{color: rgb(214, 114, 0);}
 
 
