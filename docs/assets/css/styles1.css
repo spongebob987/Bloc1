@@ -52,4 +52,7 @@ h1 {
 
 a {
     color: rgba(243, 122, 1, 0.932);
+    padding: 50px;
+    justify-content: center;
+    
 }
