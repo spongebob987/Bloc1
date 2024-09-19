@@ -1,20 +1,17 @@
 body {
-    background-color: rgb(83, 83, 83);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(78, 78, 78, 0.973);
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
+
+
 
 h1 {
     font-size: 48px;                /* Taille de police plus grande */
-    font-weight: bold;              /* Rendre le titre gras */
-    color: rgb(214, 114, 0);        /* Couleur principale du texte */
-    letter-spacing: 2px;            /* Espacement entre les lettres */
-    background: linear-gradient(90deg, rgba(214,114,0,1) 0%, rgba(255,165,0,1) 100%); /* Dégradé de couleur */
-    -webkit-background-clip: text;  /* Applique le dégradé uniquement au texte */
-    color: transparent;             /* Rendre le fond transparent pour voir le dégradé */
-    padding: 10px 20px;             /* Espacement autour du titre */
-    display: flex;          /* Permet au titre d'avoir une largeur adaptée à son contenu */
-    transition: transform 0.3s ease; /* Animation lors du survol */
+    color: rgb(218, 141, 42);        /* Couleur principale du texte */
     text-align: center;
+
 }
 
 .menu {
@@ -32,7 +29,7 @@ h1 {
 
 .menu a {
     text-decoration: none;       /* Enlève le soulignement des liens */
-    color: rgb(214, 114, 0);     /* Couleur des liens */
+    color: rgb(226, 225, 223);     /* Couleur des liens */
     padding: 5px 10px;          /* Ajoute de l'espace à l'intérieur des liens */
     border-radius: 5px;          /* Ajoute des coins arrondis */
     background-color: rgb(50, 50, 50); /* Ajoute un fond sombre aux liens */
@@ -54,7 +51,5 @@ h1 {
 }
 
 a {
-    color: rgb(214, 114, 0);
+    color: rgb(209, 117, 24);
 }
-
-
