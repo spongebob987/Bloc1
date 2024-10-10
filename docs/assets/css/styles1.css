@@ -1,6 +1,6 @@
 body {
-    background: rgb(4, 0, 80);
-    background: linear-gradient(90deg, rgb(5, 0, 95) 0%, rgba(9,9,121,1) 35%, rgb(0, 60, 255) 100%);
+    background: rgb(173, 173, 173);
+    background: linear-gradient(90deg, rgb(92, 92, 92) 0%, rgb(133, 133, 133) 35%, rgb(164, 164, 165) 100%);
     font-family: "Alata", sans-serif;
     font-style: normal;
     font-weight: 400;

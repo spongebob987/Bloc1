@@ -1,5 +1,7 @@
 body {
-    background-color: rgba(78, 78, 78, 0.973);
+    background: rgb(173, 173, 173);
+    background: linear-gradient(90deg, rgb(92, 92, 92) 0%, rgb(133, 133, 133) 35%, rgb(164, 164, 165) 100%);
+
     font-family: "Alata", sans-serif;
     font-style: normal;
     font-weight: 400;
