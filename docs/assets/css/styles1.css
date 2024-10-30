@@ -4,15 +4,15 @@ body {
     font-family: "Alata", sans-serif;
     font-style: normal;
     font-weight: 400;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
 }
 
 footer{
     display: flex;
     justify-content:space-between ;
-    padding: 50px;
+    padding: 5%;
     margin: 10px 0;
     text-decoration: none;
 }
@@ -56,7 +56,7 @@ h1 {
     max-width: 800px; 
     min-width: 400px;  
     width: 80%;           
-    padding: 20px;
+    padding: 5%;
     color: white;                /* Ajoute une couleur de texte pour le contenu */
 }
 
