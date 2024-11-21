@@ -1,6 +1,95 @@
-body{
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-background-image: url(../../../documents/dfmin.jpg);
-width: 100%;
-height: 100%;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    background-color: #FF5733;
+    padding: 20px 10px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.header h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Image Container */
+.image-container {
+    
+    text-align: center;
+}
+
+.background-image {
+    width: 100%;
+   
+   
+}
+
+/* Text Overlay */
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Centrer verticalement */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+}
+
+.service-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    opacity: 0.8; /* Légèrement transparent pour voir l'image */
+}
+
+.service-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 14px;
 }
